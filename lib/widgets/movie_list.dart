@@ -15,7 +15,7 @@ class MovieList extends StatelessWidget {
       builder: (context, snapshot) {
           final movies = snapshot.data!;
           return SizedBox(
-            height: 250, // Adjust the height as needed
+            height: 250,
             child: SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
